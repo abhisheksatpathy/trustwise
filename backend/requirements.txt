@@ -1,0 +1,26 @@
+# FastAPI and server
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+
+# Database
+sqlmodel>=0.0.8
+psycopg2-binary>=2.9.9  # PostgreSQL adapter
+alembic>=1.12.0  # For database migrations
+asyncpg>=0.28.0  # Required for async PostgreSQL with SQLModel
+
+# ML/Inference
+onnxruntime>=1.16.0
+numpy>=1.24.0
+transformers>=4.40.0
+torch>=2.1.0  # Required by transformers for tokenizers
+accelerate>=0.30.0  # For better device management
+
+# Utilities
+python-dotenv>=1.0.0  # For environment variables
+pydantic>=2.4.2  # Data validation
+
+# Testing
+pytest>=7.0.0 # Added pytest
+pytest-asyncio>=0.23.4 # Added pytest asyncio
+httpx>=0.25.0
